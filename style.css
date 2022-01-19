@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    max-width: 500px;
+    width: 70%;
+}
+
+form{
+    height: auto;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #23b36b, #0b532f 130%);
+}
+
+form h2{
+    font-size: 36px;
+    padding: 5px 0 15px;
+}
+
+form input[type=text], input[type=tel]{
+    width: 100%;
+    height: 30px;
+    border: 2px solid #bbb;
+    padding-left: 10px;
+    margin: 2px 0;
+    outline: 0;
+}
+
+form textarea{
+    width: 100%;
+    max-height: 150px;
+    padding: 5px 10px;
+    border: 2px solid #bbb;
+    outline: 0;
+}
+
+form input[type=text]:focus, input[type=tel]:focus, textarea:focus{
+    border-color: #656;
+    transition: 0.2s;
+}
+
+form input[type=text]:hover, input[type=tel]:hover, textarea:hover{
+    background-color: rgb(247, 247, 247);
+    transition: 0.2s;
+}
+
+form button{
+    width: 150px;
+    cursor: pointer;
+    background: whitesmoke;
+    height: 40px;
+    margin: 10px;
+    color: rgb(75, 143, 99);
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
